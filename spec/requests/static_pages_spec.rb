@@ -9,9 +9,9 @@ describe "StaticPages" do
   		visit '/static_pages/home'
   		expect(page).to have_title("#{base_title} | Home")
   	end
-  	it "should have the content 'T3 App'" do
+  	it "should have the content 'T3App'" do
   		visit '/static_pages/home'
-  		expect(page).to have_content('T3 App')
+  		expect(page).to have_content('T3App')
   	end
   end
 
@@ -21,9 +21,9 @@ describe "StaticPages" do
   		expect(page).to have_title("#{base_title} | Help")
   	end
 
-  	it "shold have the content 'Help" do
+  	it "shold have the content 'T3App'" do
   		visit '/static_pages/help'
-  		expect(page).to have_content "Help"
+  		expect(page).to have_content "T3App"
   	end
   end
 
