@@ -1,10 +1,11 @@
 source 'https://rubygems.org'
-ruby '2.0.0'
+ruby '2.1.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.1'
-gem 'bootstrap-sass', '2.3.2.0'
+gem 'rails', '4.0.4'
+gem 'bootstrap-sass', '>=2.3.2.0'
 gem 'bcrypt-ruby', '>=3.1.2'
+gem 'sprockets', '>=2.11.0'
 
 # Use (sqlite3) postgres as the database for Active Record
 group :development, :test do
@@ -24,7 +25,7 @@ group :test do
 end
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.1'
+gem 'sass-rails', '~> 4.0.2'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 2.1.1'
